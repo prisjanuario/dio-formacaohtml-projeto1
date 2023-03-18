@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto</title>
+</head>
+<body style="background-color: #232025;">
+    <h1 id="topo" style="color:#f4a948;">Digital Innovation One - Primeiro projeto da Formação HTML</h1>
+    <img src="https://kinsta.com/wp-content/uploads/2019/12/free-html-editor.jpg" alt="Illustração de uma pessoa programando" height="400">
+    <hr />
+    <h2 style="color: antiquewhite;">Nesta página web mostrarei o que foi aprendido até agora na formação. Acompanhe!</h2>
+    <p id="indice" style="color:antiquewhite"><strong>Índice</strong></p>
+    <ol style="color:antiquewhite">
+        <li><a href="#topico1">Entendendo comunicação Client x Server</a></li>
+            <ol>
+                <li><a href="#subtopico1.1">Primeiros computadores</a></li>
+                <li><a href="#subtopico1.2">Lado do cliente (client-side)</a></li>
+                <li><a href="#subtopico1.3">Lado do servidor (server-side)</a></li>
+            </ol>
+        <li><a href="#topico2">2 Introdução ao HTML na prática</a></li>
+            <ol>
+                <li><a href="#subtopico2.1">Inspetor de elementos</a></li>
+                <li><a href="#subtopico2.2">Estrutura básica do HTML</a></li>
+                <li><a href="#subtopico2.3">Tags e atributos</a></li>
+                <li><a href="#subtopico2.4">Textos</a></li>
+                <li><a href="#subtopico2.5">Listas ordenadas e não ordenadas</a></li>
+                <li><a href="#subtopico2.6">Links</a></li>
+            </ol>
+        <li><a href="#topico3">Como entregar seu desafio de projeto</a></li>
+            <ol>
+                <li><a href="#subtopico3.1">Criando um repositório no GitHub</a></li>
+                <li><a href="#subtopico3.2">Subindo o projeto no repositório</a></li>
+            </ol>
+    </ol>
+    <h1 style="color: #a93d3d;" id="topico1">1 Entendendo comunicação Client x Server</h1>
+        <p style="color:white">Nessa primeira parte da formação, foi dada uma introdução a alguns conceitos básico sobre cliente e servidor. Além disso, também foi apresentado um pouco da história dos primeiros computadores e do surgimento da internet.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico1.1" style="color:#a93d3d">
+        1.1 Primeiros computadores
+    </h2>
+    <figure>
+        <img src="https://www.anarquista.net/wp-content/uploads/2018/03/ada-lovelace-primeira-programadora-da-historia.jpg" alt="Ada Lovelace e a Máquina Analítica" height="300">
+            <figcaption style="color:white"><small>Ada Lovelace e a Máquina Analítica.</small></figcaption>
+    </figure>
+        <p style="color:white">Pode-se dizer que o primeiro computador foi inventado pelo francês Blaise Pascal, durante o século XVII. Essa máquina era, na verdade, uma calculadora que realizava operações de soma e subtração. Mais tarde, o alemão Gottfried Wilhelm criou a possibilidade de realizar outras operações matemáticas, como a multiplicação e a divisão. Entrando no século XVIII, Ada Lovelace introduz o primeiro sistema de algoritmos do mundo, que passa a ser utilizado na Máquina Analítica, criado por Charles Babbage. Mais adiante, em 1943, é criada a primeira geração de computadores modernos, pelo inglês Alan Turing. Anos mais tarde, em 1981, a IBM lança o primeiro microcomputador pessoal.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico1.2" style="color:#a93d3d">1.2 Lado do cliente (client-side)</h2>
+        <img src="https://moriahsoftware.com.br/site/wp-content/uploads/2016/07/frontend-e-backend.png" alt="Esquema explicando cliente versus servidor" height="250">
+        <p style="color:white">O conceito de <i>client</i>, ou cliente, diz respeito ao código que será processado apenas pelo <b>navegador</b>, ou <i>browser</i> do usuário. Por isso, também é chamado de <mark>front-end</mark>, e utiliza linguagens como o JavaScript. Trata-se da parte da interface, ou seja, tudo o que o usuário irá visualizar em sua tela.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico1.3" style="color:#a93d3d">1.3 Lado do servidor (server-side)</h2>
+        <p style="color:white">O lado do servidor refere-se a todo o código que não será processado diretamente pelo navegador. Nesse caso, o navegador manda uma requisição para o servidor, que é o local onde o banco de dados fica armazenado, e essa requisição é processada no <mark>back-end</mark> da aplicação. Algumas linguagens utilizadas para desenvolver o server são PHP, Ruby, C# e JavaScript (Node.js).</p> 
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h1 id="topico2" style="color:#a93d3d">2 Introdução ao HTML na prática</h1>
+        <p style="color:white">Na segunda aula dessa parte do curso, iniciamos, de fato, os estudos de HTML. Como é sabido por muitos, o HTML não é uma linguagem de programação, mas sim de <mark>marcação</mark>.<br><br><i><b>H</b>yper<br><b>T</b>ext<br><b>M</b>arkup<br><b>L</b>anguage</i>
+        <br><br>
+        Por isso, o HTML é estruturado através de <b>tags</b> e <b>atributos</b> de tags. Formando, assim, uma hierarquia de conteúdo que faça sentido para os navegadores, motores de busca e, acima de tudo, para o usuário.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.1" style="color:#a93d3d">2.1 Inspetor de elementos</h2>
+        <p style="color:white">O inspetor de elementos, como o nome já diz, serve para inspecionar os elementos de uma página web. Com ele, é possível ter acesso ao código-fonte e localizar elementos, como imagens, tags e outros. Também é possível alterar alguns elementos, como cores e textos. Todavia, essas alterações são feitas apenas no navegador, e não no código-fonte original da aplicação.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.2" style="color:#a93d3d">2.2 Estrutura básica do HTML</h2>
+        <p style="color:white">O HTML é estruturado pelos seguintes elementos:
+        <br><br><strong>Head:</strong> Contém a informação <em>meta</em> sobre o documento HTML. É aqui que inserimos coisas como o idioma e o título da página.
+        <br><br><strong>Title:</strong> Fica dentro do head. É o título da página que será exibido na aba da página.
+        <br><br><strong>Body:</strong> O body, ou corpo da página, é um contâiner que contém todo o conteúdo que será exibido para o usuário, como headings, parágrafos, imagens e links.
+        <br><br><strong>Headings e parágrafos:</strong> Indicam a hierarquia do conteúdo a ser exibido na página.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.3" style="color:#a93d3d">2.3 Tags e atributos</h2>
+        <img src="https://4.bp.blogspot.com/-B5vUzJXNAoE/Vuay2ygsN2I/AAAAAAAAG5o/-qOAVBa3LRkJ0fPWywYzkAcmezRAY2Rxg/s1600/html-syntax.png" alt="Esquema sobre tags e atributos" width="600">
+        <p style="color:white">As <i>tags</i> servem para indicar a estrutura da página ao navegador. São uma forma de organizar os elementos presentes no documento HTML, de forma a facilitar sua interpretação pelo browser. As tags devem estar sempre dentro dos sinais matemáticos "menor que" e "maior que": <i>< isto é um exemplo de tag ></este></i>. Além disso, também devem possuir fechamento, ou seja, sempre que uma tag for aberta, ela deve ser fechada com uma barra (/). O conteúdo a ser exibido na página deverá ficar após a abertura e antes do fechamento da tag.
+        <br><br>Já os atributos de tags são características que o conteúdo, a ser inserido dentro da tag, carrega. Exemplos de atributos são <em>"style"</em>, que pode servir para alterar a cor, e <em>"width"</em>, que serve para alterar a largura do contâiner onde o conteúdo está inserido. A sintaxe dos atributos constitui-se em descrevê-los dentro da própria tag, acompanhados por um sinal de igual e aspas, dentro das quais a característica do atributo será inserida.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.4" style="color:#a93d3d">2.4 Textos</h2>
+        <p style="color:white">A estrutura de um texto em um documento HTML é composta por headings e parágrafos, representados, respectivamente, pelas tags <i>< h1 ></i> (podendo ir até o <i>< h6 ></i>) e <i>< p ></i>. Já a formatação dos textos pode ser inserida através de tags como <i>< i ></i> para <i>itálico</i>, <i>< b ></i> para <b>negrito</b>, assim por diante.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.5" style="color:#a93d3d">2.5 Listas ordenadas e não ordenadas</h2>
+        <p style="color:white">As listas num documento HTML são classificadas em ordenadas e não ordenadas. As primeiras classificam o conteúdo em ordem e são inseridas através da tag <i>< ol ></i>, e geralmente utilizam números. Já as segundas, inseridas pela tag <i>< ul ></i> os classificam sem ordem de relevância, geralmente utilizando <i>bullet points.</i>
+        <br><br>
+        Esta é uma lista <mark>ordenada</mark>
+        <ol style="color:white">
+            <li>Item 1;</li>
+            <li>Item 2;</li>
+            <li>Item 3.</li>
+        </ol></p>
+        <p style="color:white">Esta é uma lista <mark>não ordenada</mark></p>
+        <ul style="color:white">
+            <li>Item 1;</li>
+            <li>Item 2;</li>
+            <li>Item 3.</li>
+        </ul>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico2.6" style="color:#a93d3d">2.6 Links</h2>
+        <p style="color:white">Em um documento HTML, é possível adicionar hyperlinks que redirecionam o usuário para outra página web. Em sua sintaxe, os links são inseridos através da tag de ancoragem <i>< a href="cliqueaqui.com" >.</a></i> Também é possível adicionar atributos como <i>< alt="Texto alternativo" ></i>, para inserir o texto alternativo para fins de acessbilidade, <i>< target="_blank" ></i> para o link abrir em uma nova aba etc.</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h1 id="topico3" style="color:#a93d3d">3 Como entregar seu desafio de projeto</h1>
+    <img src="https://cdn1.vogel.de/unsafe/800x0/smart/images.vogel.de/vogelonline/bdb/1286800/1286845/original.jpg" alt="Mascote do GitHub ao lado da logo do site" width="600">
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico3.1" style="color:#a93d3d">3.1 Criando um repositório no GitHub</h2>
+        <p style="color:white">As formações e Bootcamps da DIO são baseadas no desenvolvimento de projetos que, por sua vez, são adicionados ao repositório do GitHub e enviados para avaliação.</p>
+        <h2 style="color:antiquewhite">Passo a passo para criar um repositório</h2>
+        <h3 style="color:antiquewhite">Passo 1</h3>
+            <p style="color:white">No canto superior direito da barra de menu do GitHub, próximo à foto de perfil, clicar no ícone "+" e ir em "Novo repositório".</p>
+        <h3 style="color:antiquewhite">Passo 2</h3>
+            <p style="color:white">Após ser direcionado para uma nova página, escolher o nome do repositório e digitar no campo indicado.</p>   
+        <h3 style="color:antiquewhite">Passo 3</h3>
+            <p style="color:white">No passo 4, escolher se quer que o repositório seja público e privado.</p>
+        <h3 style="color:antiquewhite">Passo 4</h3>
+            <p style="color:white">Optar ou não por adicionar um README ao repositório. Trata-se de um arquivo que contém a descrição do projeto. Após isso, ir em "Criar repositório".</p>
+    <p><a href="#indice"><small>< Voltar ao Índice</small></a></p>
+    <h2 id="subtopico3.2" style="color:#a93d3d">3.2 Subindo o projeto no repositório</h2>
+    <h3 style="color:antiquewhite">Passo 1</h3>
+        <p style="color:white">Para subir o projeto no repositório criado, é preciso primeiro instalar o Git na máquina.</p>
+    <h3 style="color:antiquewhite">Passo 2</h3> 
+        <p style="color:white">Ir até a pasta em que o arquivo HTML está localizado e, com o botão direito do mouse, clicar em "Git Bash Here".</p>
+    <h3 style="color:antiquewhite">Passo 3</h3> 
+        <p style="color:white">Após aberta a janela do Git, verificar se está na pasta certa do projeto que se pretende subir para o GitHub. Verificado isso, digitar o comando <i><mark>git init</mark></i> e apertar <i>Enter</i>. Depois, digitar <i><mark>git add nomedoarquivo.html</mark></i>. Em seguida, dar o comando <i><mark>git commit -m "nome do commit"</mark></i>
+    <br>
+    <h1 style="color:#f4a948"><i><b>Fim. Obrigada!</b></i></h1>
+    <p><a href="#topo"><small>< Voltar ao Topo</small></a></p>
+</body>
+</html>
